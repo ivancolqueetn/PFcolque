@@ -1,11 +1,3 @@
-/* Error: Undefined mixin.
- *    ,
- * 9  | /     @include mediaquery-mobile(){
- * 10 | |         padding: 0px 10px;
- * 11 | \     }
- *    '
- *   scss\layout\header.scss 9:2  root stylesheet */
-
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
       "Droid Sans Mono", monospace, monospace;

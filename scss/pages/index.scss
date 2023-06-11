@@ -71,7 +71,11 @@
 	--bs-card-border-color: none;
 	--bs-card-bg: none;
 	align-items: center;
+	.card-body p{
+		text-align: start;
+	}
 }
+
 #valoraciones {
 	h2 {
 		padding: 40px 0px;

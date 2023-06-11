@@ -8,6 +8,9 @@
 }
 .Compras{
     padding: 100px 20px;
+	.text-right h4{
+		padding: 10px 0px;
+	}
 }
 .boton{
 	@include mediaquery-mobile(){

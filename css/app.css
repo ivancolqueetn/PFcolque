@@ -65,6 +65,7 @@ li {
 }
 
 .boton {
+  justify-content: center;
   text-decoration: none;
   border-radius: 20px;
   background-color: #82029c;
@@ -262,6 +263,9 @@ footer a {
   --bs-card-bg: none;
   align-items: center;
 }
+.card .card-body p {
+  text-align: start;
+}
 
 #valoraciones h2 {
   padding: 40px 0px;
@@ -356,6 +360,9 @@ footer a {
 .targetas__estilo {
   padding: 40px 50px;
 }
+.targetas__estilo h3 {
+  padding: 10px 0px;
+}
 
 .card-body p {
   text-align: center;
@@ -443,7 +450,7 @@ footer a {
   align-items: center;
 }
 .equipo__container h4 {
-  padding: 20px;
+  padding: 20px 100px;
 }
 
 @media (max-width: 576px) {
@@ -643,6 +650,9 @@ footer a {
 
 .Compras {
   padding: 100px 20px;
+}
+.Compras .text-right h4 {
+  padding: 10px 0px;
 }
 
 @media (max-width: 576px) {

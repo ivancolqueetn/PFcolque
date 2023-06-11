@@ -48,6 +48,9 @@
 .targetas__estilo {
   padding: 40px 50px;
 }
+.targetas__estilo h3 {
+  padding: 10px 0px;
+}
 
 .card-body p {
   text-align: center;
